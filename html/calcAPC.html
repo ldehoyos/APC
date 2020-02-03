@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Calculate the annual porcentual change</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for calcAPC {APC}"><tr><td>calcAPC {APC}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Calculate the annual porcentual change</h2>
+
+<h3>Description</h3>
+
+<p>This function calculates the annual porcentual change (APC) of a matrix which has the subject ID as its first column and on the rest of the columns the numeric data to calculate the APC from. Therefore, each row is a different scan ID and each column a different region.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+calcAPC(fdata, f_ph)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>fdata</code></td>
+<td>
+<p>Data frame which has on its first column the subject ID and on the rest of the columns the data to calculate the APC from.</p>
+</td></tr>
+<tr valign="top"><td><code>f_ph</code></td>
+<td>
+<p>Data frame, output from function load_phenotypes().</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>Data frame
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Lucia de Hoyos &lt;luciadeh@gmail.com&gt;
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>APC</em> version 0.1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>
