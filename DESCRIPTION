@@ -1,7 +1,7 @@
 Package: APC
 Type: Package
 Title: Calculate the Annual Porcentual Change
-Version: 0.1.0
+Version: 0.1.1
 Author: Lucia de Hoyos <luciadeh@gmail.com>
 Maintainer: Lucia de Hoyos <luciadeh@gmail.com>
 Description: Based on the data from two timepoints, 

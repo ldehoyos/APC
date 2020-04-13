@@ -2,3 +2,5 @@
 
 export(calcAPC)
 export(load_phenotypes)
+export(runSC)
+export(runSCwr)
