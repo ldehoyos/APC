@@ -24,7 +24,7 @@ Data frame
 This function prepares the phenotypic data of the subjects. It inputs the phenotypic information and the column numbers of scan ID (colID), subject ID (colsID), scan timepoint (colTp) and age (colAge). It reorganises the information, to output a data frame which has the information needed to calculate the APCs for each subject and its two timepoints (scan ID and age at first and second timepoint).
 }
 \examples{
-y <- load_phenotypes(x, colID = 1, colsID = 2, colTp = 3, colAge = 4)
+y <- load_phenotypes(file= mtcars, colID = 1, colsID = 2, colTp = 3, colAge = 4)
 
 }
 \author{
