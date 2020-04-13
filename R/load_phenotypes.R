@@ -11,7 +11,7 @@
 #' @return Data frame
 #'
 #' @examples
-#' y <- load_phenotypes(x, colID = 1, colsID = 2, colTp = 3, colAge = 4)
+#' y <- load_phenotypes(file= mtcars, colID = 1, colsID = 2, colTp = 3, colAge = 4)
 #'
 #' @author Lucia de Hoyos <luciadeh@gmail.com>
 #'
